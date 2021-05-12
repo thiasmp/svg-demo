@@ -28,7 +28,4 @@
         marker-start: url(#beginArrow);"/>
     <line x1="40" y1="610" x2="800" y2="610" style="stroke:#000000;
     marker-end: url(#endArrow);"/>
-
-    <text style="text-anchor: middle" transform="translate(30,300) rotate(-90)">600 cm</text>
-    <text style="text-anchor: middle" transform="translate(400,630)">800 cm</text>
 </svg>

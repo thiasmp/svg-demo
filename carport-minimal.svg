@@ -1,29 +1,63 @@
 <svg  xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
-      width="127" height="105"  viewBox="0 0 780 600"
+      width="927" height="905"  viewBox="0 0 900 900"
         style="fill:white">
-    <rect x="0" y="0" height="600" width="5"
+    <rect x="20" y="0" height="600" width="5"
           style="stroke"/>
-    <rect x="775" y="0" height="600" width="5"
+    <rect x="795" y="0" height="600" width="5"
           />
-    <rect x="5" y="35" height="5" width="770"
+    <rect x="25" y="35" height="5" width="770"
           />
-    <rect x="5" y="565" height="5" width="770"
+    <rect x="25" y="565" height="5" width="770"
           />
-    <line x1="55" y1="35" x2="605" y2="565" style="stroke:white; stroke-dasharray:10,10" />
-    <line x1="55" y1="565" x2="605" y2="35" style="stroke:white; stroke-dasharray:10,10" />
+    <line x1="75" y1="35" x2="625" y2="565" style="stroke:white; stroke-dasharray:10,10" />
+    <line x1="75" y1="565" x2="625" y2="35" style="stroke:white; stroke-dasharray:10,10" />
 
-    <rect x="110" y="32" height="10" width="10" style="stroke:black" />
-    <rect x="420" y="32" height="10" width="10" style="stroke:black" />
-    <rect x="730" y="32" height="10" width="10" style="stroke:black" />
-    <rect x="110" y="563" height="10" width="10" style="stroke:black" />
-    <rect x="420" y="563" height="10" width="10" style="stroke:black" />
-    <rect x="730" y="563" height="10" width="10" style="stroke:black" />
-
-
+    <rect x="130" y="32" height="10" width="10" style="stroke:black" />
+    <rect x="440" y="32" height="10" width="10" style="stroke:black" />
+    <rect x="750" y="32" height="10" width="10" style="stroke:black" />
+    <rect x="130" y="563" height="10" width="10" style="stroke:black" />
+    <rect x="440" y="563" height="10" width="10" style="stroke:black" />
+    <rect x="750" y="563" height="10" width="10" style="stroke:black" />
 
 
 
+    <svg  xmlns="http://www.w3.org/2000/svg"
 
+          width="900" height="900"  viewBox="0 0 900 900"
+          style="fill:white">
+        <defs>
+            <marker
+                    id="beginArrow"
+                    markerWidth="12"
+                    markerHeight="12"
+                    refX="0"
+                    refY="6"
+                    orient="auto">
+                <path d="M0,6 L12,0 L12,12 L0,6" style="fill: #000000;" />
+            </marker>
+            <marker
+                    id="endArrow"
+                    markerWidth="12"
+                    markerHeight="12"
+                    refX="12"
+                    refY="6"
+                    orient="auto">
+                <path d="M0,0 L12,6 L0,12 L0,0 " style="fill: #000000;" />
+            </marker>
+        </defs>
+
+
+        <line x1="8" y1="0" x2="8" y2="600" style="stroke:#000000;
+        marker-start: url(#beginArrow);
+marker-end: url(#endArrow)"/>
+        <line x1="20" y1="610" x2="800" y2="610" style="stroke:#000000;
+    marker-start: url(#beginArrow);
+    marker-end: url(#endArrow);"/>
+
+        <text style="text-anchor: middle" transform="translate(0,300) rotate(-90)">600 cm</text>
+        <text style="text-anchor: middle" transform="translate(400,630)">800 cm</text>
+    </svg>
 
 </svg>
+
