@@ -1,0 +1,29 @@
+<svg  xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      width="127" height="105"  viewBox="0 0 780 600"
+        style="fill:white">
+    <rect x="0" y="0" height="600" width="5"
+          style="stroke"/>
+    <rect x="775" y="0" height="600" width="5"
+          />
+    <rect x="5" y="35" height="5" width="770"
+          />
+    <rect x="5" y="565" height="5" width="770"
+          />
+    <line x1="55" y1="35" x2="605" y2="565" style="stroke:white; stroke-dasharray:10,10" />
+    <line x1="55" y1="565" x2="605" y2="35" style="stroke:white; stroke-dasharray:10,10" />
+
+    <rect x="110" y="32" height="10" width="10" style="stroke:black" />
+    <rect x="420" y="32" height="10" width="10" style="stroke:black" />
+    <rect x="730" y="32" height="10" width="10" style="stroke:black" />
+    <rect x="110" y="563" height="10" width="10" style="stroke:black" />
+    <rect x="420" y="563" height="10" width="10" style="stroke:black" />
+    <rect x="730" y="563" height="10" width="10" style="stroke:black" />
+
+
+
+
+
+
+
+</svg>
